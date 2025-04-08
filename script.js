@@ -7,7 +7,6 @@ document.getElementById("subscribe-form").addEventListener("submit", async funct
    const formData = new FormData();
    formData.append("email", form.email.value);
    formData.append("phone", form.phone.value);
-   formData.append("wish", form.wish.value);
  
    try {
      await fetch("https://script.google.com/macros/s/AKfycbzHLcAtWIzgAKokuyvhUTwFlrWm9Sw5dxVoEnH7YzluYrZG3niHLBAwH0_fTHv-N__1/exec", {
