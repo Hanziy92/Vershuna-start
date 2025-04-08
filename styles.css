@@ -1,0 +1,169 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fdf7e8;
+  color: #1d2b35;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 36px;
+}
+
+.tryzub {
+  width: 24px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  flex-wrap: wrap;
+}
+
+.text-block {
+  max-width: 400px;
+}
+
+.text-block h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.advantages {
+  list-style: none;
+  padding: 0;
+}
+
+.advantages li {
+  margin-bottom: 10px;
+}
+
+.phone-block img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.section-two {
+  padding: 24px 0;
+  background: #fff8ec;
+}
+
+.form-block {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-block h2,
+#countdown,
+.market {
+  text-align: center;
+}
+.form-block #countdown {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d2b35;
+    background-color: #fff4da;
+    padding: 12px 24px;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 12px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 7px;
+}
+
+form {
+  padding: 12px 0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 7px;
+  background: #1d2b35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.store-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.store-icons img {
+  width: 120px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  background: #f0ede6;
+  flex-wrap: wrap;
+}
+
+.partner-logo img {
+  width: 80px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .section-one {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .form-block {
+    width: 100%;
+  }
+}
